@@ -2,7 +2,7 @@ body {
     height: 483px;
     width: 660px;
     background-color: rgb(216, 249, 252);
-    background-image: url("resize.jpg");
+    background-image: url("resize.jpg") no-repeat;
 }
 .text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
