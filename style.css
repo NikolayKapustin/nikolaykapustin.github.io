@@ -1,0 +1,33 @@
+body {
+    height: 483px;
+    width: 660px;
+    background-color: rgb(216, 249, 252);
+    background-image: url("resize.jpg");
+}
+.text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: right;
+    color: #253f41f1;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.map {
+    display: block;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.6;
+    border-left: 3px solid #EBEBEB;
+    vertical-align: bottom;
+}
