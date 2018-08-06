@@ -1,0 +1,44 @@
+.content {
+    display: block;
+    height: 483px;
+    width: 660px;
+    background-image:  url("sign.png"), url("resize.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-position: bottom right, left top;
+    box-shadow: 0 8px 17px 2px rgb(0, 0, 0, 0.1)
+}
+.text {
+    
+    margin-top: 20px;
+    margin-right: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: right;
+    color: #4e0361f1;
+    font-weight: bold;
+    text-shadow: 1px 2px rgb(0, 0, 0, 0.1);
+}
+a {
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #4e0361f1;
+}
+.map {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.6;
+    border-left: 3px solid #EBEBEB;
+    vertical-align: bottom;
+}
+.date {
+    position: relative;
+    font-style: italic;
+}
