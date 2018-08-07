@@ -3,9 +3,10 @@
     <head>
         <title>Wedding of Nikolay and Elena</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0"/>
     </head>
     <body ng-controller="locationController">
-        <div class="content">
+        <div class="content" ng-if="person.name">
             <div class="text">
                 <div ng-switch on="person.sex">
                     <div class="h" ng-switch-when="male">Дорогой {{person.name}}!</div>
@@ -31,6 +32,9 @@
                     <span>М.ДОМОДЕДОВСКАЯ</span>
                 </a> 
             </div>      
+        </div>
+        <div class="exception" ng-if="!person.name">
+            Увы, так не работает, надо копировать исходную ссылку :(
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
         <script>
