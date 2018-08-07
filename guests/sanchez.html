@@ -44,9 +44,9 @@
         <script>
             
             var myApp=angular.module('myApp', []);
-            myApp.config(['$locationProvider', function($locationProvider) {
-                $locationProvider.hashPrefix('');
-            }]);
+            myApp.controller("locationController", function($location){
+                $location.url($location.path());
+                });
             
          </script>
     </body>
